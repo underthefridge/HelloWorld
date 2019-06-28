@@ -137,8 +137,26 @@ print (var1)
 
 # 2.15 Bitwise Operators
 
-var1 = 13
-var2 = 5
+var1 = 13   # 1101
+var2 = 5    # 0101
+#   13      1101
+#   5       0101       
+#           ----
+#   AND     0101
 
+print (var1 & var2)
 
+#   13      1101
+#   5       0101       
+#           ----
+#   OR      1101
+
+print (var1 | var2)
+
+#   13      1101
+#   5       0101       
+#           ----
+#   XOR     1101
+
+print (var1 ^ var2)
 
