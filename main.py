@@ -88,7 +88,57 @@ print (dictionary["Hello"])
 print (dictionary.values())
 print (dictionary.keys())
 
- 
+newDicitonary = {1:"Item1", 2:"Item2", 3:"Item3"}
+
+print (newDicitonary)
+
+# 2.11 Data Type Conversion
+
+var1 = 6.7
+
+print (var1)
+print (int(var1))
+
+# 2.12 Arithmetic Operators
+
+print (5 + 6)
+print (5 - 6)
+print (5 * 6)
+print (5 / 6)
+
+print (5 % 6)
+print (9 % 4)
+# 4 mieści się 2 razy w 9 = 8, 9-8=1
+
+print (5**2)
+# ** - potęgowanie
+
+print (17//3)
+
+# 2.13 Comparison Operators
+
+print (5 == 5)
+print (5 != 5)
+print (5 > 6)
+print (5 < 6)
+print (5 >= 6)
+print (5 <= 6)
+
+# 2.14 Assignment Operators
+
+var1 = 6 + 7
+print (var1)
+
+var1 = var1 + 5
+print (var1)
+
+var1 += 5
+print (var1)
+
+# 2.15 Bitwise Operators
+
+var1 = 13
+var2 = 5
 
 
 
