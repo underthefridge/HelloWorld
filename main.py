@@ -88,6 +88,7 @@ print (dictionary["Hello"])
 print (dictionary.values())
 print (dictionary.keys())
 
+test_dict = {}
 
 
 
