@@ -142,22 +142,32 @@ var2 = 5    # 0101
 #   13      1101
 #   5       0101       
 #           ----
-#   AND     0101
+#   AND     0101 (5)
 
 print (var1 & var2)
 
 #   13      1101
 #   5       0101       
 #           ----
-#   OR      1101
+#   OR      1101 (13)
 
 print (var1 | var2)
 
 #   13      1101
 #   5       0101       
 #           ----
-#   XOR     1101
+#   XOR     1101 (8)
 
 print (var1 ^ var2)
 
-#
+#   13                  1101     
+# Ones Complement       0010 (2)
+
+print (~var1)
+
+# Binary shift left
+print (var1 << 1)
+
+# Binary shift right
+print (var1 >> 1)
+
